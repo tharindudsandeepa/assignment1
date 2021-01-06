@@ -1,0 +1,100 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+html{
+    font-size:10px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+nav{
+    background:linear-gradient(#eee,#e5e2e2);
+    height:100px;
+    width:100%;
+}
+.menu-bar{
+    text-align: center;
+    
+}
+.menu-bar ul{
+    display:inline-flex;
+    
+}
+.menu-bar ul li{
+    margin:0 100px;
+    line-height:100px;
+    font-size:3rem;
+    font-weight: bold;
+    list-style: none;
+   
+
+}
+.logo{
+    padding:0 20px;
+    
+    font-size:3.5rem;
+    border-radius: 0 0 30px 30px;
+    background-color: #0c3761;
+    color:#eee;
+}
+.menu-item{
+    color:#0c3761;
+}
+.logo:hover{
+    font-size: 3.8rem;
+}
+#contactus{
+    color:#eee;
+    background-color: #0c3761;
+}
+#other:hover{
+    font-size:3.13rem;
+}
+.contact{
+    background-color: #072441;
+    color:#eee;
+}
+form{
+    width:70%;
+    margin:0 auto;
+}
+form label{
+    font-size:1.5rem;
+}
+input,
+select,
+textarea{
+    width:100%;
+    padding:1rem;
+    margin-bottom: 5px;
+    border:none;
+    outline-color:#252968;
+}
+input[type="submit"]{
+    width:initial;
+    color:#0c3761;
+    padding:1rem 2rem;
+    border-radius:8rem;
+    cursor:pointer;
+    transition: background-color 650ms;
+}
+.section-handling h1{
+    text-align: center;
+    line-height: 30px;
+    font-size:2.7rem;
+}
+.details{
+    background-color: black;
+    width:100%;
+    color:#eee;
+    height:199px;
+    text-align:center;
+    line-height:29px;
+}
+.images{
+    width:50px;
+    background-color: black;
+    margin:30px;
+}
